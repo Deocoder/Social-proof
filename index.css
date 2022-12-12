@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 5.5% auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.first-container {
+  margin-bottom: 60px;
+}
+
+/*  hsl(300, 24%, 96%)  */
+
+body {
+  background: url(images/bg-pattern-top-desktop.svg);
+  background-position: center;
+  height: 100vh;
+}
+
+.col-1 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-3 {
+  flex-basis: 30%;
+  margin-left: 20px;
+  line-height: 22px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  min-width: 250px;
+  background-color: hsl(300, 43%, 22%);
+}
+
+
+.col-3:nth-child(2){
+transform: translateY(15px);
+}
+
+.col-3:nth-child(3){
+    transform: translateY(25px);
+}
+
+.col-3 img {
+  height: 40px;
+  transform: translateX(-40px);
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.div{
+    margin-left: 50px;
+    transform: translateX(-55px);
+}
+.text-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .div h4{
+  color: #fff;
+}
+
+.div h5{
+  color: hsl(300, 24%, 96%);
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.col-1 h1 {
+  font-weight: 800;
+  font-size: 35px;
+  color: hsl(300, 43%, 22%);
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.col-1:first-child p {
+  font-weight: 600;
+  line-height: 22px;
+  color: hsl(300, 43%, 22%);
+  /* color: hsl(333, 80%, 67%); */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-container {
+  display: flex;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  width: 65%;
+  margin-bottom: 15px;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.small-container:nth-child(2) {
+  margin-left: 40px;
+}
+.small-container:nth-child(3) {
+  margin-left: 70px;
+}
+
+.small-container .fa {
+  margin-left: 8px;
+  color: rgb(255, 217, 0);
+}
+
+.fa:last-child {
+  margin-right: 30px;
+}
